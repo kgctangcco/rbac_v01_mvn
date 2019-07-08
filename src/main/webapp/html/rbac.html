@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>rbac</title>
+    <link rel="stylesheet" href="../res/layui/css/layui.css">
+    <link rel="stylesheet" href="../res/css/global.css">
+    <style type="text/css" media="screen">
+        #nav_bt {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #nav_bt li {
+            list-style: none;
+            display: block;
+            float: right;
+            line-height: 48px;
+        }
+
+        .interval {
+            margin: 0px;
+            padding: 0px;
+            width: 50px;
+            height: 48px
+        }
+
+        #option_user {
+            font-size: 20px;
+        }
+
+        .textbox {
+            height: 20px;
+            margin: 0;
+            padding: 0 2px;
+            box-sizing: content-box;
+        }
+    </style>
+    <script src="../../res/jquery-3.4.1.min.js"></script>
+    <script src="../../res/layui/layui.all.js"></script>
+    <script src="../res/js/rbac.js"></script>
+</head>
+
+<body>
+    <div style="margin: 0px; padding: 0px; height: 50px; overflow: hidden;">
+        <ul id="nav_bt">
+            <li>
+                <div class="interval"></div>
+            </li>
+            <li>
+                <button id="logout_bt">退出系统</button>
+            </li>
+            <li>
+                <div class="interval"></div>
+            </li>
+            <li id="option_user">操作者：<span id="success"></span></li>
+        </ul>
+    </div>
+</body>
+
+</html>
